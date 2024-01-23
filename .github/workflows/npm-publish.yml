@@ -22,4 +22,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: start
-      - run: node app.js
+        run: node app.js
