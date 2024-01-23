@@ -1,1 +1,1 @@
-consonle.log("хуй");
+consonle.log("хуй хуй");
