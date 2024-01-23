@@ -24,6 +24,6 @@ jobs:
     steps:
       - name: Deploy to Server
         run: |
-          ssh root@45.153.69.67 'cd /test-server/test-repo && git pull origin main && npm install && node app.js'
+          ssh root@45.153.69.67 'cd /test-server/test-repo'
         env:
           SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
